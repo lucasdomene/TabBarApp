@@ -12,7 +12,7 @@
         <!--Item 2-->
         <scene sceneID="3Cb-ik-H9y">
             <objects>
-                <viewController id="xWM-By-4je" sceneMemberID="viewController">
+                <viewController id="xWM-By-4je" customClass="BrowserViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y4u-Jd-ORf"/>
                         <viewControllerLayoutGuide type="bottom" id="8j0-FG-QtW"/>
@@ -31,7 +31,7 @@
         <!--Item-->
         <scene sceneID="cEp-dC-kCW">
             <objects>
-                <viewController id="FdR-Ry-Hf6" sceneMemberID="viewController">
+                <viewController id="FdR-Ry-Hf6" customClass="CustomAlertsViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BCh-pI-5JM"/>
                         <viewControllerLayoutGuide type="bottom" id="RTF-Jz-ks4"/>
@@ -50,7 +50,7 @@
         <!--Item 1-->
         <scene sceneID="py7-fa-yvk">
             <objects>
-                <viewController id="6FX-2K-F3d" sceneMemberID="viewController">
+                <viewController id="6FX-2K-F3d" customClass="NumbersViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gu5-gW-RNK"/>
                         <viewControllerLayoutGuide type="bottom" id="XwL-Mw-9yc"/>
