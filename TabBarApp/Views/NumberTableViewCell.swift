@@ -27,4 +27,9 @@ class NumberTableViewCell: UITableViewCell {
 		numberLabel.text = nil
 	}
 	
+	func fill(withSquareNumber squareNumber: SquareNumber) {
+		numberLabel.text = "\(squareNumber.value)"
+		backgroundColor = squareNumber.backgroundColor
+		numberLabel.textColor = squareNumber.textColor
+	}
 }

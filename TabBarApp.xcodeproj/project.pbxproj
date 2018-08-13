@@ -17,6 +17,7 @@
 		3B6E46982121D29C006553D2 /* CustomAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E46972121D29C006553D2 /* CustomAlertsViewController.swift */; };
 		3B6E469D2121D501006553D2 /* NumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E469B2121D501006553D2 /* NumberTableViewCell.swift */; };
 		3B6E469E2121D501006553D2 /* NumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6E469C2121D501006553D2 /* NumberTableViewCell.xib */; };
+		3B6E46A12121DB4E006553D2 /* SquareNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E46A02121DB4E006553D2 /* SquareNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3B6E46972121D29C006553D2 /* CustomAlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertsViewController.swift; sourceTree = "<group>"; };
 		3B6E469B2121D501006553D2 /* NumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTableViewCell.swift; sourceTree = "<group>"; };
 		3B6E469C2121D501006553D2 /* NumberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberTableViewCell.xib; sourceTree = "<group>"; };
+		3B6E46A02121DB4E006553D2 /* SquareNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		3B6E469F2121DB13006553D2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3B6E46A02121DB4E006553D2 /* SquareNumber.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6E46982121D29C006553D2 /* CustomAlertsViewController.swift in Sources */,
+				3B6E46A12121DB4E006553D2 /* SquareNumber.swift in Sources */,
 				3B6E46782121CDD4006553D2 /* NumbersViewController.swift in Sources */,
 				3B6E46962121D271006553D2 /* BrowserViewController.swift in Sources */,
 				3B6E469D2121D501006553D2 /* NumberTableViewCell.swift in Sources */,
