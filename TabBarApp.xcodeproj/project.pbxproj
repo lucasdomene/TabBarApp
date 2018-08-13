@@ -85,6 +85,7 @@
 		3B6E46742121CDD4006553D2 /* TabBarApp */ = {
 			isa = PBXGroup;
 			children = (
+				3B6E469F2121DB13006553D2 /* Models */,
 				3B6E469A2121D4DF006553D2 /* Views */,
 				3B6E46992121D3F6006553D2 /* ViewControllers */,
 				3B6E46752121CDD4006553D2 /* AppDelegate.swift */,
@@ -122,6 +123,13 @@
 				3B6E469C2121D501006553D2 /* NumberTableViewCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3B6E469F2121DB13006553D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

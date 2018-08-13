@@ -18,12 +18,25 @@ class NumbersViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		tableView.register(UINib(nibName: "NumberTableViewCell", bundle: nil), forCellReuseIdentifier: "NumberCell")
+		registerCell()
 	}
 	
 }
 
 extension NumbersViewController: UITableViewDataSource {
+	
+	// MARK: - Table View Customization
+	
+	func registerCell() {
+		tableView.register(UINib(nibName: "NumberTableViewCell", bundle: nil), forCellReuseIdentifier: "NumberCell")
+	}
+	
+	func customize(_ cell: NumberTableViewCell, atIndexPath indexPath: IndexPath) {
+		cell.backgroundColor = indexPath.row % 2 == 0 ? .white : .black
+		cell.numberLabel?.textColor = indexPath.row % 2 == 0 ? .black : .white
+	}
+	
+	// MARK: - UITableViewDataSource
 	
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		return 100
@@ -32,6 +45,7 @@ extension NumbersViewController: UITableViewDataSource {
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "NumberCell", for: indexPath) as! NumberTableViewCell
 		cell.numberLabel.text = "\(indexPath.row * indexPath.row)"
+		customize(cell, atIndexPath: indexPath)
 		return cell
 	}
 	
