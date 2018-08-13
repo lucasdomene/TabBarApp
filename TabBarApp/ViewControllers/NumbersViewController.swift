@@ -26,6 +26,8 @@ class NumbersViewController: UIViewController {
 		registerCell()
 	}
 	
+	// MARK: - Setup
+	
 	func createSquareNumbers() {
 		for number in 0...100 {
 			squareNumbers.append(SquareNumber(number: number))

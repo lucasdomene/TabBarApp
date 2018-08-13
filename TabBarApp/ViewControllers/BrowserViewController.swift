@@ -7,12 +7,40 @@
 //
 
 import UIKit
+import WebKit
 
-class BrowserViewController: UIViewController {
+class BrowserViewController: UIViewController, WKUIDelegate {
 
+	// MARK: - @IBOutlets
+	
+	@IBOutlet weak var webView: WKWebView!
+	
+	// MARK: - View Life Cycle
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		print("Browser View Controller")
+		loadView()
+	}
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		loadGoogle()
+	}
+	
+	// MARK: - Setup
+	
+	override func loadView() {
+		let webConfiguration = WKWebViewConfiguration()
+		webView = WKWebView(frame: .zero, configuration: webConfiguration)
+		webView.uiDelegate = self
+		view = webView
+	}
+	
+	func loadGoogle() {
+		if let url = URL(string: "https://google.com") {
+			let urlRequest = URLRequest(url: url)
+			webView.load(urlRequest)
+		}
 	}
 	
 }
