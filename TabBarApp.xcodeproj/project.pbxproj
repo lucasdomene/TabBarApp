@@ -15,6 +15,8 @@
 		3B6E468B2121CDD6006553D2 /* TabBarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E468A2121CDD6006553D2 /* TabBarAppTests.swift */; };
 		3B6E46962121D271006553D2 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E46952121D271006553D2 /* BrowserViewController.swift */; };
 		3B6E46982121D29C006553D2 /* CustomAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E46972121D29C006553D2 /* CustomAlertsViewController.swift */; };
+		3B6E469D2121D501006553D2 /* NumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E469B2121D501006553D2 /* NumberTableViewCell.swift */; };
+		3B6E469E2121D501006553D2 /* NumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6E469C2121D501006553D2 /* NumberTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		3B6E468C2121CDD6006553D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B6E46952121D271006553D2 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		3B6E46972121D29C006553D2 /* CustomAlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertsViewController.swift; sourceTree = "<group>"; };
+		3B6E469B2121D501006553D2 /* NumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTableViewCell.swift; sourceTree = "<group>"; };
+		3B6E469C2121D501006553D2 /* NumberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		3B6E46742121CDD4006553D2 /* TabBarApp */ = {
 			isa = PBXGroup;
 			children = (
+				3B6E469A2121D4DF006553D2 /* Views */,
 				3B6E46992121D3F6006553D2 /* ViewControllers */,
 				3B6E46752121CDD4006553D2 /* AppDelegate.swift */,
 				3B6E46792121CDD4006553D2 /* Main.storyboard */,
@@ -108,6 +113,15 @@
 				3B6E46972121D29C006553D2 /* CustomAlertsViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3B6E469A2121D4DF006553D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B6E469B2121D501006553D2 /* NumberTableViewCell.swift */,
+				3B6E469C2121D501006553D2 /* NumberTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6E469E2121D501006553D2 /* NumberTableViewCell.xib in Resources */,
 				3B6E46802121CDD6006553D2 /* LaunchScreen.storyboard in Resources */,
 				3B6E467D2121CDD6006553D2 /* Assets.xcassets in Resources */,
 				3B6E467B2121CDD4006553D2 /* Main.storyboard in Resources */,
@@ -214,6 +229,7 @@
 				3B6E46982121D29C006553D2 /* CustomAlertsViewController.swift in Sources */,
 				3B6E46782121CDD4006553D2 /* NumbersViewController.swift in Sources */,
 				3B6E46962121D271006553D2 /* BrowserViewController.swift in Sources */,
+				3B6E469D2121D501006553D2 /* NumberTableViewCell.swift in Sources */,
 				3B6E46762121CDD4006553D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,12 @@ import UIKit
 
 class NumbersViewController: UIViewController {
 	
+	// MARK: - @IBOutlets
+	
+	@IBOutlet weak var tableView: UITableView!
+	
+	// MARK: - View Life Cycle
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		print("Numbers View Controller")
